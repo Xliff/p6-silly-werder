@@ -1,0 +1,32 @@
+{
+    "name" : "Silly::Werder",
+    "perl" : "6.c",
+    "version" : "0.0.1",
+    "authors" : [ "github:Xliff", "Clifton Wood" ],
+    "description" : "Perl6 port of Silly::Werder, a random word generator.",
+    "depends" : [ ],
+    "build-depends" : [ ],
+    "test-depends" : [ "Test::META" ],
+    "provides" : {
+        "Silly::Werder"          : "lib/Silly/Werder.pm",
+        "Silly::Werder::Grammar" : "lib/Silly/Werder/Grammar.pm",
+    },
+    "resources"  : {
+        "grammars" : [
+		"english",
+		"english-small",
+		"french",
+		"french-small",
+		"german",
+		"german-small",
+		"shakespeare",
+		"spanish"
+		"spanish-small",
+		"swedish"
+		"swedish-small"
+		"syllables"
+	],
+    },
+    "source-url" : "git://github.com/Xliff/p6-silly-werder.git"
+
+}
